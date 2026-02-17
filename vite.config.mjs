@@ -7,7 +7,6 @@ import tagger from "@dhiwise/component-tagger";
 export default defineConfig({
   // This changes the out put dir from dist to build
   // comment this out if that isn't relevant for your project
-  base: '/Hospital-Management-System/'
   build: {
     outDir: "build",
     chunkSizeWarningLimit: 2000,
@@ -21,3 +20,4 @@ export default defineConfig({
   }
 
 });
+
